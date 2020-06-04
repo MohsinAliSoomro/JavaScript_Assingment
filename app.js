@@ -74,3 +74,34 @@ var storename ="XYZ Clothes Store";
 var quintity=5;
 document.write(`<br /> ${visitorname} ordered ${quintity} ${producttitle}(s) on ${storename}`);
 //lacture three End
+
+// //lacture four Start
+// //VARIABLE NAMES: LEGAL & ILLEGAL
+
+// //1
+// var one,two,three;
+// //2
+// // ILLEGAL
+// var 1one;
+// var "two";
+// var @three;
+// var &four;
+// var %five;
+// // LEGAL
+// var one;
+// var _two;
+// var th_ree;
+// var four4
+// var five_5
+//3
+//A
+document.write("<h1>“Rules for naming JS variables</h1>");
+//B
+document.write("<br>Variable names can only contain letters,digits,underscores and dollar signs.");
+//C
+document.write("<br>Variables must begin with a letter,$ or case sensitive For example <b>$name, _name</b> or <b>name</b>")
+//D
+document.write("<br>Variable names are case Sensitive");
+//E
+document.write("<br>Variable names should not be JS keyword");
+
