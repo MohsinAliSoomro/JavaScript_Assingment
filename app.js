@@ -173,3 +173,56 @@ document.write(`<br/>4x7=28`);
 document.write(`<br/>4x8=32`);
 document.write(`<br/>4x9=36`);
 document.write(`<br/>4x10=40`);
+//6
+var celsiusTemp=52;
+var fahrenheit=(celsiusTemp*9/5)+32;
+document.write('<br/>'+fahrenheit);
+var fahrenheitTemp = 102;
+var celsius=(fahrenheitTemp-32)*5/9;
+document.write('<br/>'+celsius);
+//7
+var priceItem1=650;
+var quantityaItem1=3;
+var priceItem2=100;
+var quantityaItem2=7;
+var shipCharges=100;
+document.writeln("<br/>Price of item 1 is "+priceItem1);
+document.writeln("<br/>Quantity of the item 1 is "+quantityaItem1);
+document.writeln("<br/>Price of item 2 is "+priceItem2);
+document.writeln("<br/>Quantity of the item 2 is "+quantityaItem2);
+document.writeln("<br/>Shipping Charges "+shipCharges);
+var total = (priceItem1*quantityaItem1)+(priceItem2*quantityaItem2)+shipCharges;
+document.writeln("<br/>Total cost of your order "+total);
+//8
+var obtainedmark=804;
+var totalmarks=980;
+var percentage = (100*obtainedmark)/totalmarks;
+document.write("<br/> Total Marks = "+totalmarks);
+document.write("<br/> Marks Obtained = "+obtainedmark);
+document.write("<br/> Percentage = "+percentage);
+//9
+var exchangeCurrenncy = (10*104.80) + (28*25);
+document.write("<br/>Total Currency"+exchangeCurrenncy);
+//10
+var someNumber=10;
+(someNumber+5)*10/2;
+document.write("<br/>Arthmetic "+someNumber);
+//11
+var currentYear=2020;
+var birthDate=1998;
+var  yourAge= currentYear-birthDate;
+document.write("<br/>Current Year"+currentYear);
+document.write("<br/>Birth Year"+birthYear);
+document.write("<br/> Your Age is "+yourAge);
+//12 Not Understand
+
+//13
+var favouritesnake="Chocolate chip";
+var currentage=15;
+var estimeteage=65;
+var amountofsnakeperday=3;
+document.write("<br/> Favourite Snack :"+favouritesnake);
+document.write("<br/> Current Age is "+currentage);
+document.write("<br/> Estimate Maximum Age "+estimeteage);
+document.write("<br/> Amount of Snakes Per day "+amountofsnakeperday);
+document.write("<br/> You will need 150 "+favouritesnake+" to last you until the ripe old age of "+estimeteage);
