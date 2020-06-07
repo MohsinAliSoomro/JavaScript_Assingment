@@ -276,44 +276,170 @@
 // }
 //6
 //a
-var english="English";
-var Isl="Islamiat";
-var physics="Physics";
-//b
-var totalmark=100;
-//c
-var eng=89;
-//d
-var isl=99;
-var phy=30;
-//e
-function showTable(){
-    //english
-    englishPer=(100*eng)/100;
-    document.getElementById('sub1').innerHTML=english;
-    document.getElementById('total1').innerHTML=totalmark;
-    document.getElementById('obt1').innerHTML=eng;
-    document.getElementById('mp1').innerHTML=englishPer+"%";
-    //islamiat
-    islPer=(100*isl)/100;
-    document.getElementById('sub2').innerHTML=Isl;
-    document.getElementById('total2').innerHTML=totalmark;
-    document.getElementById('obt2').innerHTML=isl;
-    document.getElementById('mp2').innerHTML=islPer+"%";
-    //physics
-    phyPer=(100*phy)/100;
-    document.getElementById('sub3').innerHTML=physics;
-    document.getElementById('total3').innerHTML=totalmark;
-    document.getElementById('obt3').innerHTML=phy;
-    document.getElementById('mp3').innerHTML=phyPer+"%";
+// var english="English";
+// var Isl="Islamiat";
+// var physics="Physics";
+// //b
+// var totalmark=100;
+// //c
+// var eng=89;
+// //d
+// var isl=99;
+// var phy=30;
+// //e
+// function showTable(){
+//     //english
+//     englishPer=(100*eng)/100;
+//     document.getElementById('sub1').innerHTML=english;
+//     document.getElementById('total1').innerHTML=totalmark;
+//     document.getElementById('obt1').innerHTML=eng;
+//     document.getElementById('mp1').innerHTML=englishPer+"%";
+//     //islamiat
+//     islPer=(100*isl)/100;
+//     document.getElementById('sub2').innerHTML=Isl;
+//     document.getElementById('total2').innerHTML=totalmark;
+//     document.getElementById('obt2').innerHTML=isl;
+//     document.getElementById('mp2').innerHTML=islPer+"%";
+//     //physics
+//     phyPer=(100*phy)/100;
+//     document.getElementById('sub3').innerHTML=physics;
+//     document.getElementById('total3').innerHTML=totalmark;
+//     document.getElementById('obt3').innerHTML=phy;
+//     document.getElementById('mp3').innerHTML=phyPer+"%";
     
-    totalmark*3;
-    document.getElementById('totalmarks').innerHTML=totalmark;
+//     totalmark*3;
+//     document.getElementById('totalmarks').innerHTML=totalmark;
     
-    var obtTotal=eng+isl+phy;
-    document.getElementById('obttol').innerHTML=obtTotal;
+//     var obtTotal=eng+isl+phy;
+//     document.getElementById('obttol').innerHTML=obtTotal;
 
-    var calculatePer=(100*eng+phy+isl)/100;
-    document.getElementById('per').innerHTML=calculatePer;
+//     var calculatePer=(100*eng+phy+isl)/100;
+//     document.getElementById('per').innerHTML=calculatePer;
+// }
+// //lacture 6-9 end
+
+// //lacture 9-11 Start
+
+// //1
+// function cityFunc(){
+//     var city=document.getElementById('city').value;
+//     if(city==="karachi"){
+//         document.write("welcome to the city of light");
+//     }else{
+//         document.write(city)
+//     }
+// }
+// //2
+// function genderFunc(){
+//     var gen=document.getElementById('gender').value;
+//     if(gen==="male".toLowerCase()){
+//         document.write("Good Morning Sir");
+//     }else{
+//         document.write("Good Morning Ma'am ");
+//     }
+// }
+// //3
+// function signalFunc(){
+//     var color=document.getElementById('signal').value;
+//     if(color==="red"){
+//         document.write("Must Stop");
+//     }else if(color==="yellow"){
+//         document.write("Ready to move");
+//     }else if(color==="green"){
+//         document.write("Move now");
+//     }
+//     else{
+//         document.write("Invalid Color");
+//     }
+// }
+// //4
+// function fuelFunc(){
+//     var fuel=document.getElementById('fuel').value;
+//     if(fuel<=0.25){
+//         document.write("Please refill the fuel in your car")
+//     }  
 }
-//lacture 6-9 end
+//5
+//  var a = 4; 
+//  //true condition
+//  if (++a === 5){ 
+//      alert("given condition for variable a is true");
+//  } 
+ 
+// var b = 82; 
+// //false condition
+// if (b++ === 83){ 
+//     alert("given condition for variable b is true"); 
+// } 
+ 
+// var c = 12; 
+// //false condition
+// if (c++ === 13){ 
+//     alert("condition 1 is true"); 
+// } 
+// //true condition
+// if (c === 13){
+//      alert("condition 2 is true"); 
+// } 
+// //false condition
+// if (++c < 14){ 
+//     alert("condition 3 is true"); 
+// }
+// //true condition 
+// if(c === 14){ 
+//     alert("condition 4 is true"); 
+// } 
+ 
+// var materialCost = 20000; 
+// var laborCost = 2000; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){
+//     //true condition
+//      alert("The cost equals"); 
+// } 
+//  if (true){ 
+//      //true condition
+//      alert("True"); 
+//     } 
+// if (false){ 
+//     //false condition
+//     alert("False"); 
+// } 
+// if("car" < "cat"){ 
+//     //nonse sense question
+//     alert("car is smaller than cat"); 
+// } 
+//6
+// function computeGrade(){
+//     var sub1=document.getElementById('sub1').value;
+//     var sub2=document.getElementById('sub2').value;
+//     var sub3=document.getElementById('sub3').value;
+//     var subTotalMarks=sub1+sub2+sub3;
+//     document.write('Total Marks 300');
+//     document.write('Marks obtained' +subTotalMarks);
+//     var subjectPer=(100*sub1+sub2+sub3)/100;
+//     document.write('Percetage '+subjectPer);
+//     if(subjectPer>80){
+//         document.write('A-one');
+//         document.write('Excellence');
+//     }else if(subjectPer>=70){
+//         document.write('A')
+//         document.write('Good');
+//     }else if(subjectPer>=60){
+//         document.write('b')
+//         document.write('You Need to Improve');
+//     }else if(subjectPer<60){
+//         document.write('Failed')
+//         document.write('Sorry');
+//     }
+// }
+//7
+function GuessNumber(){
+    var guess = document.getElementById('guess').value;
+    var guessnum=4;
+    if(guess===guessnum){
+        document.write('Bingo! Correct answer')
+    }else if(guess===guessnum+1){
+        document.write('Close enough to the correct answer')
+    }
+}
