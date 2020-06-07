@@ -358,7 +358,7 @@
 //     if(fuel<=0.25){
 //         document.write("Please refill the fuel in your car")
 //     }  
-}
+//}
 //5
 //  var a = 4; 
 //  //true condition
@@ -441,5 +441,50 @@ function GuessNumber(){
         document.write('Bingo! Correct answer')
     }else if(guess===guessnum+1){
         document.write('Close enough to the correct answer')
+    }
+}
+//8
+//9
+function evenoroddnum(){
+    val=document.getElementById('evenorodd').value;
+    if(val%2==0){
+        document.write('even');
+    }else{
+        document.write('odd')
+    }
+}
+//10
+function checkweather(){
+    weathercheck=document.getElementById('checkweather').value;
+    if(weathercheck>40){
+        document.write("It is too hot outside")
+    }else if(weathercheck>30){
+        document.write('The Weather today is Normal');
+    }else if(weathercheck>20){
+        document.write('Today’s Weather is cool');
+    }else if(weathercheck>10){
+        document.write('“OMG! Today’s weather is so Cool');
+    }
+}
+//11
+function computeOperator(){
+    var first=document.getElementById('first').value;
+    var second=document.getElementById('second').value;
+    var opr=document.getElementById('operator').value;
+    switch (opr) {
+        case '+':
+            document.write("add total is "+(first+second))
+            break;
+        case '-':
+            document.write("sub total is "+first-second)
+            break;
+        case '*':
+            document.write("multi total is "+first*second)
+            break; 
+        case '/':
+            document.write("divided total is "+first/second)
+            break;   
+        default:
+            break;
     }
 }
