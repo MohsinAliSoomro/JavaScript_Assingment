@@ -488,3 +488,109 @@ function computeOperator(){
             break;
     }
 }
+//lacture 9-11 end
+
+//lacture 12-13 start
+
+//Task 1
+var chartactor = 65;
+if(chartactor===65){
+    document.write('A Uppercase')
+}
+else if(chartactor===90){
+    document.write('Z Upercase')
+}
+else if(chartactor===97){
+    document.write('a lowercase')
+}
+else if(chartactor===122){
+    document.write('z lowercase')
+}
+
+//Task 2
+function chechNumber(){
+    let val1=document.getElementById('firstnum').value;
+    let val2=document.getElementById('secondnum').value;
+    if(val1===val2){
+        document.write('Both are Equal');
+    }
+    else if(val1>val2){
+        document.write('First Value is greater');
+    }
+    else if(val2>val1){
+        document.write('Second Value is greater');
+    }
+}
+//Task 3
+function PorNChech(){
+    let chechNumberPN=document.getElementById('numchech').value;
+    if(chechNumberPN==0){
+        document.write("Number is Zero");
+    }else if(chechNumberPN>0){
+        document.write("Number is Positive");
+    }else if(chechNumberPN<0){
+        document.write('Number is Negetive');
+    }
+}
+//Task 4
+function CheckVowel(){
+    let charVowel=document.getElementById("onechar").value;
+    if(charVowel==='a' || charVowel==="e" || charVowel==="i" || charVowel==="o" || charVowel==="u"){
+        document.write("True")
+    }else{
+        document.write("False")
+    }
+}
+//Task 5
+function checkPassword(){
+    let pass=document.getElementById('pass').value;
+    let repass=document.getElementById('repass').value;
+    if(pass=='' || repass==''){
+        document.write("Please Enter Password")
+    }else if(pass!='' && repass !=''){
+        if(pass==repass){
+            document.write("Correct! The password you entered matches the original password")
+        }else{
+            document.write("incorrect Password")
+        }
+    }
+}
+//Task 6
+//There are one curly brasis use both have seperated curly brasis
+ var greeting; 
+ var hour = 13; 
+ if (hour < 18){ 
+     greeting = "Good day"; 
+    }else {
+        greeting = "Good evening"; 
+} 
+//Task 7
+    let time=1700;
+        if(time>=0000 && time<1200){
+            document.write("Good Morning");
+        }else if(time>=1200 && time<1700){
+            document.write("Good Afternoor");
+        }else if(time>=1700&& time<2100){
+            document.write("Good Evening");
+        }else if(time>=1200 && time<=2359){
+            document.write('Good Night');
+        }
+
+//lacture 12-13 end
+
+//lacture 14-16 start
+
+//Task 1
+var arr=[];
+//Task 2
+var arr = new Array();
+//Task 3
+var arr=String(['']);
+//Task 4
+var arr=Number([1,2,3,4]);
+//Task 5
+var arr =Boolean([true,false]);
+//Task 6
+var arr =[1,'a',true];
+//Task 7
+var EduArr=['SSC','HSC','BCS','BS','BCOM','MS','M.Phil','PhD'];
