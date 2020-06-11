@@ -301,7 +301,7 @@
 //     document.getElementById('obt2').innerHTML=isl;
 //     document.getElementById('mp2').innerHTML=islPer+"%";
 //     //physics
-//     phyPer=(100*phy)/100;
+//     phyPer=(100/phy)*100;
 //     document.getElementById('sub3').innerHTML=physics;
 //     document.getElementById('total3').innerHTML=totalmark;
 //     document.getElementById('obt3').innerHTML=phy;
@@ -313,7 +313,7 @@
 //     var obtTotal=eng+isl+phy;
 //     document.getElementById('obttol').innerHTML=obtTotal;
 
-//     var calculatePer=(100*eng+phy+isl)/100;
+//     var calculatePer=(100/eng+phy+isl)*100;
 //     document.getElementById('per').innerHTML=calculatePer;
 // }
 // //lacture 6-9 end
@@ -582,15 +582,29 @@ function checkPassword(){
 
 //Task 1
 var arr=[];
+
 //Task 2
 var arr = new Array();
+
 //Task 3
 var arr=String(['']);
+
 //Task 4
 var arr=Number([1,2,3,4]);
+
 //Task 5
 var arr =Boolean([true,false]);
+
 //Task 6
 var arr =[1,'a',true];
+
 //Task 7
 var EduArr=['SSC','HSC','BCS','BS','BCOM','MS','M.Phil','PhD'];
+
+//Task 8
+var stdName=['Mohsin','Ali','Soomro'];
+var stdtotal=500;
+var stdMarks=[320,230,480];
+document.writeln(`Score of ${stdName[0]} is ${stdMarks[0]} Percentage: ${stdMarks[0]/stdtotal*100}% <br/>`);
+document.writeln(`Score of ${stdName[1]} is ${stdMarks[1]} Percentage: ${stdMarks[1]/stdtotal*100}% <br/>`);
+document.writeln(`Score of ${stdName[2]} is ${stdMarks[2]} Percentage: ${stdMarks[2]/stdtotal*100}% <br/>`);
