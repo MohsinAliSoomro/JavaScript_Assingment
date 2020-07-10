@@ -608,3 +608,12 @@ var stdMarks=[320,230,480];
 document.writeln(`Score of ${stdName[0]} is ${stdMarks[0]} Percentage: ${stdMarks[0]/stdtotal*100}% <br/>`);
 document.writeln(`Score of ${stdName[1]} is ${stdMarks[1]} Percentage: ${stdMarks[1]/stdtotal*100}% <br/>`);
 document.writeln(`Score of ${stdName[2]} is ${stdMarks[2]} Percentage: ${stdMarks[2]/stdtotal*100}% <br/>`);
+
+//Task 9
+let ColorArr=['Blue','White','Yellow','Green','Black'];
+    for (let i = 0; i < ColorArr.length; i++) {
+        document.write(ColorArr[i]+'<br/>');
+    }
+function ColorBegin(){
+    
+}
